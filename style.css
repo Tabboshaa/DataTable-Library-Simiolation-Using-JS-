@@ -1,0 +1,177 @@
+
+*{
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: cursive;
+}
+.inputTable{
+    width: 35%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.input-btn{
+    background-color: lightcoral;
+    margin-top: 10px;
+    padding: 0px 20px;
+}
+
+/* data table */
+
+.data-table {
+    border-collapse: collapse;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #DDD;
+  }
+  tr{
+    transition: all 1s;
+  }
+  tr:hover {
+    cursor: default;
+    color: white;
+    background-color: #333;
+    
+  }
+
+  .container{
+      text-align: center;
+      width: 70%;
+      margin: auto;
+      padding: 40px;
+      background-color: lightgoldenrodyellow;
+      border-radius: 15px 50px;
+      box-shadow: 5px 5px 15px black;
+  }
+
+  #avg{
+    margin-top: 20px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px black;
+    transition: all 1s;
+    background-color:lightcyan;
+  }
+
+  #summation{
+    margin-top: 20px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px black;
+    transition: all 1s;
+    background-color:lightcyan;
+  }
+
+  #summation:hover , #avg:hover{
+    background-color:lightcoral;
+    cursor: pointer;
+    color: #333;
+    box-shadow: 5px 5px 15px black;
+  }
+
+  .log{
+    color: red;
+    font-size: 12px;
+    font: bold;
+  }
+  #container2{
+    display: none;
+    margin-top: 60px;
+    width: 50%;
+    margin: auto;
+    padding: 25px;
+    background-color: lightgoldenrodyellow;
+    border-radius: 15px 50px;
+    box-shadow: 5px 5px 15px black;
+  }
+
+  .delete{
+    border: none;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px black;
+    transition: all 1s;
+    background-color:lightcyan;
+  }
+
+  .delete:hover{
+    background-color:lightcoral;
+    cursor: pointer;
+    color: #333;
+    box-shadow: 5px 5px 15px black;
+  }
+  .edit{
+    border: none;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px black;
+    transition: all 1s;
+    background-color: #333;
+    color: white;
+  }
+  .edit:hover{
+    background-color: lightgreen;
+    cursor: pointer;
+    color: #333;
+    box-shadow: 5px 5px 15px black;
+  }
+
+  #Add{
+    margin-top: 20px;
+    padding: 10px 35px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px black;
+    transition: all 1s;
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+  }
+
+  #Add:hover{
+    cursor: pointer;
+    background-color: lightgreen;
+    color: #333;
+    box-shadow: 5px 5px 15px black;
+  }
+
+  #saveBtn{
+    padding: 8px 30px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px black;
+
+    transition: all 1s;
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+  }
+
+  #saveBtn:hover ,#saveEditsBtn:hover{
+    background-color: lightgreen;
+    cursor: pointer;
+    color: #333;
+    box-shadow: 5px 5px 15px black;
+  }
+  #saveEditsBtn{
+    padding: 8px 50px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px black;
+
+    transition: all 1s;
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+  }

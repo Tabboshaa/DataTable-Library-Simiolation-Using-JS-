@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Data Base</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+</head>
+<body>
+    <div id="container2">
+        <table id="in" class="inputTable">
+            <tr>
+                <td><label for="">Name</label></td>
+                <td><input class="tableInput" type="text"></td>
+                <td class="log"></td>
+                
+            </tr>
+            <tr>
+                <td><label for="">Age</label></td>
+                <td><input class="tableInput" type="text"></td>
+                <td class="log"></td>
+            </tr>
+            <tr>
+                <td><label for="">Address</label></td>
+                <td><input class="tableInput" type="text"></td>
+                <td class="log"></td>
+            </tr>
+            
+            <tr>
+                <td><label for="">Courses</label></td>
+                <td><select name="courses" id="selectCourses">
+                    <option value="index0">courses</option>
+                    <option value="c#">c#</option>
+                    <option value="js">js</option>
+                    <option value="c++">c++</option>
+                </select>
+                </td>
+                <td class="log"></td>
+            </tr>
+            <tr>
+                <td><label  for="">Degree</label></td>
+                <td><input class="tableInput" type="text"></td>
+                <td class="log"></td>
+            </tr>
+            
+            
+            <tr>
+                <td><button id="saveBtn" class="input-btn">Save</button></td>
+                <td><button id="saveEditsBtn" class="input-btn">save Edits</button></td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div id="fistTable" class="container">
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th class="header" id="name">Name</th>
+                    <th class="header" id="age">Age</th>
+                    <th class="header" id="address">Address</th>
+                    <th class="header" id="course">Courses</th>
+                    <th class="header" id="degree">Degree</th>
+                    <th>Delete</th>
+                    <th>Update</th>
+                  </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+            
+          </table>
+          <br>
+          <label for="searchValue">Search by name</label>
+          <input id="searchValue" type="text">
+          <br>
+          <button id="avg" class="input-btn">Get the Avg degree</button>
+          <button id="summation" class="input-btn">Get the sum of degree</button>
+          <br>
+          <button class="input-btn" id="Add">Add new Student</button>
+    </div>
+</body>
+</html>
